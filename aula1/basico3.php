@@ -36,6 +36,30 @@ for ($i = 10; $i >= 0; $i--) {
 
 
 #while
+$contador = 0;
+while($contador <= 10) {
+    $contador++;
+}
 
+
+#foreach
+$numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+foreach ($numeros as $fruta){
+    echo "$fruta, ";
+}
+
+
+#arrays associativos
+$frutas = [
+    "banana" => "amarela",
+    "maçã" => "vermelha",
+    "uva" => "roxa",
+    "laranja" => "laranja"
+];
+
+foreach($frutas as $fruta => $cor){
+    echo "<br>A fruta $fruta é da cor $cor.<br> ";
+}
 
 ?>
