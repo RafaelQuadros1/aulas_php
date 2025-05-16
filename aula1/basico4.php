@@ -1,7 +1,9 @@
 <?PHP
 
+echo"<ul><li><a href='index.html'>home</a></li></ul>";
 $qlinha = "<br><br>";
 echo "Funções$qlinha";
+
 
 # Funções são blocos de código que podem ser reutilizados
 

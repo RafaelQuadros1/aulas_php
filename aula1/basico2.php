@@ -1,5 +1,6 @@
 <?php
 
+echo"<ul><li><a href='index.html'>home</a></li></ul>";
 echo"estruturas condicionais<br><br>";
 
 $qlinha = "<br><br>";

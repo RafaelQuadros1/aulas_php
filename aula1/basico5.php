@@ -28,7 +28,6 @@ if (!empty($_GET['name'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -51,6 +50,10 @@ if (!empty($_GET['name'])) {
     </style>
 </head>
 <body>
+<ul>
+    <li><a href="index.html">home</a></li>
+</ul>
+
     <h1>form aula</h1>
 
     <form action="basico5.php" method="get">

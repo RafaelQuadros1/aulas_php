@@ -1,6 +1,9 @@
 <?php
+
+echo"<ul><li><a href='index.html'>home</a></li></ul>";
 #print do php
 echo ("variaveis e tipos de dados<br><br><br>");
+
 
 #como contatenar
 $valor1 = "10";

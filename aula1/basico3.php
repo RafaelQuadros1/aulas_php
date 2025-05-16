@@ -1,8 +1,10 @@
 <?PHP
 
-
+echo"<ul><li><a href='index.html'>home</a></li></ul>";
 $qlinha = "<br><br>";
 echo"estruturas de repetição$qlinha";
+
+
 
 #repeter um codigo baseado em uma condiçao saimos do loop quando a condiçao for falsa
 
